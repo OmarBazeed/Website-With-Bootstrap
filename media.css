@@ -1,0 +1,29 @@
+@media (max-width:576px){
+    .navbar-dark .navbar-nav .nav-link{padding-left:20px}
+    
+    .services .container .row {justify-content: center}
+    
+    .features .container .row .feat img:hover{transform: scale(0.9)}
+    
+    .portfolio .container-fluid .row .im:nth-of-type(5) img{margin-top: 5px }
+    
+    .pricing .container-fluid .row{justify-content: center;}
+    .pricing .container-fluid .row .unit{margin-bottom: 35px}
+    
+    .team .container .row div{margin-bottom: 10px}
+}
+
+@media (max-width:425px){
+    
+    nav .container a img{height: 60px}
+    
+    .home .overlay .container h1{font-size: 40px;} 
+    
+    .home .overlay .container p{font-size: 20px;}
+    
+    .services .container .row .card-effect{flex-basis: 385px;}
+    
+.home .overlay .container:hover button:first-of-type{transform: scale(1.1) translatex(-20px);}
+
+.home .overlay .container:hover button:last-of-type{transform: scale(1.1) translatex(20px);}
+}
